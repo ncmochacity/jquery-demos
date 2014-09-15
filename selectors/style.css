@@ -1,0 +1,85 @@
+@import url("reset.css");
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body{
+	background-color:#3D2117;
+}
+h1{
+	font-family:"Anton",sans-serif;
+	font-weight:400;
+	font-size:3em;
+	margin:0 auto;
+	color:#E86850;
+	width:32%;
+	padding:2%;
+	margin-top:10px;
+	margin-bottom: 10px;
+	border-bottom:3px dashed #587498;
+
+}
+h2
+{
+	font-family:"Roboto",sans-serif;
+	font-weight:100;
+	font-size:2.5em;
+	color:#fff;
+	text-align: center
+}
+ul#select-movies{
+	text-align: center;
+	margin:3% auto;
+	background-color: #23B5AF;
+}
+#select-movies > li{
+	font-size:2em;
+	color:#E86850;
+	font-weight:400;
+	font-family:"Anton",sans-serif;
+}
+ul li{
+	font-family:"Roboto",sans-serif;
+	font-weight:300;
+	line-height: 2em;
+}
+li{
+	padding:0 3px;
+}
+li a{
+	text-decoration: none;
+	color:#666;
+	font-weight: bold;
+	-webkit-transition:color 0.5s ease-in-out;
+	-moz-transition:color 0.5s ease-in-out;
+	-o-transition:color 0.5s ease-in-out;
+	-ms-transition:color 0.5s ease-in-out;
+	transition:color 0.5s ease-in-out;
+
+}
+li a:hover{
+	color:white;
+	-webkit-transition:color 0.5s ease-in-out;
+	-moz-transition:color 0.5s ease-in-out;
+	-o-transition:color 0.5s ease-in-out;
+	-ms-transition:color 0.5s ease-in-out;
+	transition:color 0.5s ease-in-out;
+}
+.horizontal {
+  float: left;
+  list-style: none;
+  margin: 10px;
+}
+.secondary{
+	background-color:#ccc;
+}
+.mailto{
+	background:url("email.png") no-repeat right;
+	padding-right:40px;
+	
+}
+.pdf{
+	background:url("pdf.png") no-repeat right;
+	padding-right:40px;
+
+}
